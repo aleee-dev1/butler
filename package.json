@@ -1,0 +1,19 @@
+{
+    "name": "butler-semantic-search",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "Local multimodal semantic search CLI powered by EmbeddingGemma 2 and ChromaDB",
+    "bin": {
+        "butler": "./script.js"
+    },
+    "scripts": {
+        "start": "node ./script.js"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "dependencies": {
+        "chromadb": "^3.5.0"
+    }
+}
